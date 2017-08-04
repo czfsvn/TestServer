@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../common/TypeDef.h
+
+/home/czf/work/tinyserver/test/Main.cpp
+TypeDef.h
+/home/czf/work/tinyserver/test/TypeDef.h
+iostream
+-
+

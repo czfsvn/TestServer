@@ -1,0 +1,1 @@
+/usr/bin/c++    -O0 -Wall -g2 -ggdb    CMakeFiles/Main.dir/Main.o  -o ../bins/Main  -L/home/czf/work/tinyserver/build/libs  -L/usr/lib64/mysql -rdynamic ../libs/libmysql_sd.a ../libs/libcommon.a -lmysqlclient_r -Wl,-rpath,/home/czf/work/tinyserver/build/libs:/usr/lib64/mysql 

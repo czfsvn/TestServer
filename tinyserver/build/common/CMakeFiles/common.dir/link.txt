@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../libs/libcommon.a  CMakeFiles/common.dir/Sync.o CMakeFiles/common.dir/System.o CMakeFiles/common.dir/Thread.o
+/usr/bin/ranlib ../libs/libcommon.a

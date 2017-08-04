@@ -1,0 +1,536 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	298;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	301;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	304;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	307;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	310;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	313;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	316;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	320;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d
+AddDBCommand	mysql_sd/DBModule.cpp	/^bool cDBModule::AddDBCommand(IDBCommand *poDBCommand)$/;"	f	class:cDBModule
+AddDBCommandFront	mysql_sd/DBModule.cpp	/^bool cDBModule::AddDBCommandFront(IDBCommand *poDBCommand)$/;"	f	class:cDBModule
+AddRef	mysql_sd/DBModule.cpp	/^void cDBModule::AddRef(void)$/;"	f	class:cDBModule
+AddRequest	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::AddRequest(IDBCommand *poDBCommand)$/;"	f	class:cMySqlClient
+AddRequestFront	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::AddRequestFront(IDBCommand *poDBCommand)$/;"	f	class:cMySqlClient
+AddResponse	mysql_sd/DBModule.cpp	/^void cDBModule::AddResponse(IDBCommand* poDBCommand)$/;"	f	class:cDBModule
+CDBCmdList	mysql_sd/MySqlClient.h	/^typedef std::list<IDBCommand*>  CDBCmdList;$/;"	t
+CHARACTER_SET_CLIENT	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_CLIENT = 0,$/;"	e	enum:__anon3
+CHARACTER_SET_CONNECTION	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_CONNECTION,$/;"	e	enum:__anon3
+CHARACTER_SET_COUNT	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_COUNT,$/;"	e	enum:__anon3
+CHARACTER_SET_DATABASE	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_DATABASE,$/;"	e	enum:__anon3
+CHARACTER_SET_RESULTS	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_RESULTS,$/;"	e	enum:__anon3
+CHARACTER_SET_SERVER	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_SERVER,$/;"	e	enum:__anon3
+CHARACTER_SET_SYSTEM	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_SYSTEM,$/;"	e	enum:__anon3
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/tinyserver\/build$/;"	m
+CMAKE_BINARY_DIR	build/common/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/tinyserver\/build$/;"	m
+CMAKE_BINARY_DIR	build/mysql_sd/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/tinyserver\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/common/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/mysql_sd/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_EDIT_COMMAND	build/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	build/common/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	build/mysql_sd/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/tinyserver$/;"	m
+CMAKE_SOURCE_DIR	build/common/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/tinyserver$/;"	m
+CMAKE_SOURCE_DIR	build/mysql_sd/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/tinyserver$/;"	m
+CN	common/Singleton.h	/^namespace CN$/;"	n
+CN	common/Sync.cpp	/^namespace CN$/;"	n
+CN	common/Sync.h	/^namespace CN$/;"	n
+CN	common/System.cpp	/^namespace CN$/;"	n
+CN	common/System.h	/^namespace CN$/;"	n
+CN	common/Thread.cpp	/^namespace CN$/;"	n
+CN	common/Thread.h	/^namespace CN$/;"	n
+CN	common/TypeDef.h	/^namespace CN$/;"	n
+CNDB_MODULENAME	mysql_sd/DB.h	/^const char  CNDB_MODULENAME[]        = "CN_DB";$/;"	v
+CNDB_VERSION	mysql_sd/DB.h	/^const PVersion  CNDB_VERSION    = P_VERSION;$/;"	v
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	107;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	112;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	119;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	122;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	125;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	133;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	13;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	152;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	160;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	165;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	170;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	177;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	194;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	197;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	200;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	24;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	32;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	38;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	44;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	50;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	56;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	70;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	77;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	85;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	88;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	90;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	99;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	100;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	108;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	114;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	126;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	135;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	154;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	15;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	172;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	180;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	185;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	25;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	33;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	39;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	46;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	52;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	59;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	64;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	72;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	79;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	93;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	101;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	109;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	115;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	127;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	136;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	155;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	16;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	173;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	181;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	186;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	26;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	34;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	40;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	47;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	53;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	60;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	65;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	73;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	80;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	94;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	103;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	116;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	129;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	140;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	143;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	156;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	174;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	17;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	182;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	187;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	28;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	35;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	41;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	61;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	66;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	74;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	81;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	95;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	147;"	d
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	20;"	d
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d
+CSingleton	common/Singleton.h	/^                CSingleton(void){}$/;"	f	class:CN::CSingleton
+CSingleton	common/Singleton.h	/^        class   CSingleton$/;"	c	namespace:CN
+CheckConnection	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::CheckConnection()$/;"	f	class:cMySqlConnection
+Close	mysql_sd/MySqlConnection.cpp	/^void cMySqlConnection::Close()$/;"	f	class:cMySqlConnection
+Connect	mysql_sd/DBModule.cpp	/^bool cDBModule::Connect(DBConnInfo* pstDBConnInfo)$/;"	f	class:cDBModule
+Connect	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::Connect()$/;"	f	class:cMySqlConnection
+Connect	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::Connect(const char* pszServerAddr, int32 nServerPort, const char* pszDBName, $/;"	f	class:cMySqlConnection
+ConnectDB	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::ConnectDB(const char *pszHostName,int32 nPort, const char *pszDBName, $/;"	f	class:cMySqlClient
+CreateInstance	common/Singleton.h	/^                static bool CreateInstance()$/;"	f	class:CN::CSingleton
+DBAccount	mysql_sd/DB.h	/^struct DBAccount$/;"	s
+DBConnInfo	mysql_sd/DB.h	/^struct DBConnInfo$/;"	s
+DBGetModule	mysql_sd/DBModule.cpp	/^IDBModule* DBGetModule(const PVersion* pstVersion)$/;"	f
+DB_DISCONNECT	mysql_sd/DB.h	/^    DB_DISCONNECT     = -1,   \/\/ Disconnect from DB server    $/;"	e	enum:ESDDBCode
+DB_ERR_CONN	mysql_sd/DB.h	/^    DB_ERR_CONN       = -2,   \/\/ Failed to connect to DB server    $/;"	e	enum:ESDDBCode
+DB_ERR_UNKNOWN	mysql_sd/DB.h	/^    DB_ERR_UNKNOWN    = -999, \/\/ Unknown Error    $/;"	e	enum:ESDDBCode
+DB_HAS_RECORDSET	mysql_sd/DB.h	/^    DB_HAS_RECORDSET  = 2     \/\/ Operation succeed, some rows affected$/;"	e	enum:ESDDBCode
+DB_MAX_CHARACTSET_SIZE	mysql_sd/DB.h	7;"	d
+DB_MAX_NAME_SIZE	mysql_sd/DB.h	6;"	d
+DB_NO_RECORDSET	mysql_sd/DB.h	/^    DB_NO_RECORDSET   = 1,    \/\/ Operation succeed, no rows affected    $/;"	e	enum:ESDDBCode
+DB_SUCCESS	mysql_sd/DB.h	/^    DB_SUCCESS        = 0,    \/\/ Operation succeed    $/;"	e	enum:ESDDBCode
+DEC	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	324;"	d
+DEC	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d
+DECLARE_SINGLETON	common/Singleton.h	6;"	d
+DestroyInstance	common/Singleton.h	/^                static void DestroyInstance(void)$/;"	f	class:CN::CSingleton
+DisConnect	mysql_sd/DBModule.cpp	/^void cDBModule::DisConnect(int32 nDBSn)$/;"	f	class:cDBModule
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/common/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/mysql_sd/Makefile	/^EQUALS = =$/;"	m
+ESDDBCode	mysql_sd/DB.h	/^enum ESDDBCode$/;"	g
+EscapeString	mysql_sd/DBModule.cpp	/^uint32 cDBModule::EscapeString(int32 nDBSn, const char* pSrc, int32 nSrcSize, $/;"	f	class:cDBModule
+EscapeString	mysql_sd/MySqlClient.cpp	/^uint32 cMySqlClient::EscapeString(const char* pSrc, int32 nSrcSize, char* pszDest, int32 nDstSize)$/;"	f	class:cMySqlClient
+EscapeString	mysql_sd/MySqlConnection.h	/^        uint32 EscapeString(const char* pszSrc, char* pszDest)$/;"	f	class:cMySqlConnection
+EscapeStringEx	mysql_sd/MySqlConnection.cpp	/^uint32 cMySqlConnection::EscapeStringEx(const char* pszSrc, int32 nSize, char* pszDest)$/;"	f	class:cMySqlConnection
+ExecResultCmd	mysql_sd/DBModule.cpp	/^bool cDBModule::ExecResultCmd()$/;"	f	class:cDBModule
+Execute	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::Execute(const char* pszSQL)$/;"	f	class:cMySqlConnection
+ExecuteDBCmd	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::ExecuteDBCmd( void )$/;"	f	class:cMySqlClient
+ExecuteEx	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::ExecuteEx(const char* pszSQL, CMySQLRecordSet& rcdSet)$/;"	f	class:cMySqlConnection
+ExecuteEx	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::ExecuteEx(const char* pszSQL, int32 nLength, CMySQLRecordSet& rcdSet)$/;"	f	class:cMySqlConnection
+ExecuteSql	mysql_sd/MySqlClient.cpp	/^int32 cMySqlClient::ExecuteSql(const char* pszSQL)$/;"	f	class:cMySqlClient
+ExecuteSqlRc	mysql_sd/MySqlClient.cpp	/^int32 cMySqlClient::ExecuteSqlRc(const char* pszSQL, IMySqlRecordSet **ppRc)$/;"	f	class:cMySqlClient
+GetAffectedRows	mysql_sd/MySqlConnection.h	/^        uint32 GetAffectedRows() $/;"	f	class:cMySqlConnection
+GetDBCommandNum	mysql_sd/DBModule.cpp	/^uint32 cDBModule::GetDBCommandNum(int nDBSn)$/;"	f	class:cDBModule
+GetDBCommandNum	mysql_sd/MySqlClient.cpp	/^uint32 cMySqlClient::GetDBCommandNum()$/;"	f	class:cMySqlClient
+GetFieldCount	mysql_sd/MySqlRecordSet.cpp	/^uint32 cMySqlRecordSet::GetFieldCount()$/;"	f	class:cMySqlRecordSet
+GetFieldLength	mysql_sd/MySqlRecordSet.cpp	/^int32 cMySqlRecordSet::GetFieldLength(uint32 dwIndex)$/;"	f	class:cMySqlRecordSet
+GetFieldValue	mysql_sd/MySqlRecordSet.cpp	/^const char* cMySqlRecordSet::GetFieldValue(uint32 dwIndex)$/;"	f	class:cMySqlRecordSet
+GetLastError	mysql_sd/MySqlClient.cpp	/^uint32 cMySqlClient::GetLastError(void)$/;"	f	class:cMySqlClient
+GetLastError	mysql_sd/MySqlConnection.cpp	/^uint32 cMySqlConnection::GetLastError() $/;"	f	class:cMySqlConnection
+GetLastErrorInfo	mysql_sd/MySqlClient.cpp	/^const char * cMySqlClient::GetLastErrorInfo(void)$/;"	f	class:cMySqlClient
+GetLastErrorInfo	mysql_sd/MySqlConnection.cpp	/^const char* cMySqlConnection::GetLastErrorInfo()$/;"	f	class:cMySqlConnection
+GetModuleName	mysql_sd/DBModule.cpp	/^const char * cDBModule::GetModuleName(void)$/;"	f	class:cDBModule
+GetRecord	mysql_sd/MySqlRecordSet.cpp	/^bool cMySqlRecordSet::GetRecord()$/;"	f	class:cMySqlRecordSet
+GetRecordCount	mysql_sd/MySqlRecordSet.cpp	/^uint32 cMySqlRecordSet::GetRecordCount()$/;"	f	class:cMySqlRecordSet
+GetThread	common/Thread.h	/^            virtual IThread* GetThread(void)  { return m_pThread;     }$/;"	f	class:CN::cThreadCtrl
+GetThreadId	common/Thread.h	/^            virtual uint32 GetThreadId(void)    { return m_dwThreadId;  }$/;"	f	class:CN::cThreadCtrl
+GetVersion	mysql_sd/DBModule.cpp	/^PVersion cDBModule::GetVersion(void)$/;"	f	class:cDBModule
+HEX	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	335;"	d
+HEX	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d
+IDBBase	mysql_sd/DBBase.h	/^class IDBBase$/;"	c
+IDBCommand	mysql_sd/DB.h	/^class IDBCommand$/;"	c
+IDBModule	mysql_sd/DB.h	/^class IDBModule : public IDBBase$/;"	c
+ID_VOID_MAIN	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	9;"	d
+ILock	common/Sync.h	/^    class ILock$/;"	c	namespace:CN
+IMPLEMENT_SINGLETON	common/Singleton.h	26;"	d
+IMySqlConn	mysql_sd/DB.h	/^class IMySqlConn$/;"	c
+IMySqlRecordSet	mysql_sd/DB.h	/^class IMySqlRecordSet$/;"	c
+INFINITE	common/TypeDef.h	24;"	d
+IThread	common/Thread.h	/^    class IThread$/;"	c	namespace:CN
+IThreadCtrl	common/Thread.h	/^    class IThreadCtrl$/;"	c	namespace:CN
+Init	mysql_sd/DBModule.cpp	/^bool cDBModule::Init()$/;"	f	class:cDBModule
+Instance	common/Singleton.h	/^                static  T* Instance(void)$/;"	f	class:CN::CSingleton
+Kill	common/Thread.cpp	/^    bool cThreadCtrl::Kill(uint32 dwExitCode)$/;"	f	class:CN::cThreadCtrl
+Lock	common/Sync.cpp	/^    void cThreadLock::Lock(void)$/;"	f	class:CN::cThreadLock
+PFN_DBGetModule	mysql_sd/DB.h	/^typedef IDBModule* (*PFN_DBGetModule)(const PVersion* pstVersion);$/;"	t
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	212;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	215;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	218;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	221;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	224;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	227;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	230;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	233;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	236;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	239;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	242;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	245;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	248;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	251;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	254;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	257;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	260;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	263;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	266;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	269;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	272;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	275;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	278;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	281;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	284;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	287;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	223;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	226;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	241;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	250;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d
+PVersion	mysql_sd/DBBase.h	/^struct PVersion$/;"	s
+P_VERSION	mysql_sd/DBBase.h	/^const PVersion P_VERSION = { 3, 0, 1, 2};$/;"	v
+QueryRef	mysql_sd/DBModule.cpp	/^uint32 cDBModule::QueryRef(void)$/;"	f	class:cDBModule
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/common/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/mysql_sd/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+ReConnect	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::ReConnect()$/;"	f	class:cMySqlConnection
+Release	common/Sync.cpp	/^    void cThreadLock::Release(void)$/;"	f	class:CN::cThreadLock
+Release	common/Thread.h	/^            virtual void Release(void)          { delete this;          }$/;"	f	class:CN::cThreadCtrl
+Release	mysql_sd/DBModule.cpp	/^void cDBModule::Release(void)$/;"	f	class:cDBModule
+Release	mysql_sd/MySqlRecordSet.cpp	/^void cMySqlRecordSet::Release()$/;"	f	class:cMySqlRecordSet
+Resume	common/Thread.cpp	/^    void cThreadCtrl::Resume(void)$/;"	f	class:CN::cThreadCtrl
+Run	mysql_sd/DBModule.cpp	/^bool cDBModule::Run(int32 nCount)$/;"	f	class:cDBModule
+SAFE_ADD	common/Common.h	8;"	d
+SAFE_DELETE	common/Common.h	4;"	d
+SAFE_DELETE_VEC	common/Common.h	5;"	d
+SAFE_SUB	common/Common.h	7;"	d
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/common/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/mysql_sd/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SINGLETON_FRIEND_CLASS_REGISTER	common/Singleton.h	30;"	d
+SLocalTime	common/TypeDef.h	/^    }SLocalTime;$/;"	t	namespace:CN	typeref:struct:CN::__anon2
+STimeVal	common/TypeDef.h	/^    }STimeVal;$/;"	t	namespace:CN	typeref:struct:CN::__anon1
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/common/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/mysql_sd/Makefile	/^SUFFIXES =$/;"	m
+SYS_CreateThreadCtrl	common/Thread.cpp	/^    IThreadCtrl* SYS_CreateThreadCtrl(IThread* poThread, bool bNeedWaitfor, $/;"	f	namespace:CN
+SYS_CreateThreadLock	common/Sync.cpp	/^    ILock* SYS_CreateThreadLock()$/;"	f	namespace:CN
+SYS_GetLocalTime	common/System.cpp	/^    void SYS_GetLocalTime(uint32 dwTime,SLocalTime* pstLocalTime)$/;"	f	namespace:CN
+SYS_GetTimeEx	common/System.cpp	/^    void SYS_GetTimeEx(STimeVal* pstTime){$/;"	f	namespace:CN
+SYS_MakeDaemonProcess	common/Thread.cpp	/^    void SYS_MakeDaemonProcess()$/;"	f	namespace:CN
+SYS_Sleep	common/System.cpp	/^    void SYS_Sleep(uint32 dwMilliseconds)$/;"	f	namespace:CN
+SafeSprintf	common/StrHelper.h	/^inline void SafeSprintf(T& Destination, const char* format, ...) throw()$/;"	f
+SetConnectionString	mysql_sd/MySqlConnection.cpp	/^void cMySqlConnection::SetConnectionString(const char* pszServerAddr, int32 nServerPort, $/;"	f	class:cMySqlConnection
+Start	common/Thread.cpp	/^    int cThreadCtrl::Start(bool bSuspend)$/;"	f	class:CN::cThreadCtrl
+Start	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::Start()$/;"	f	class:cMySqlClient
+StaticThreadFunc	common/Thread.cpp	/^    uint32  cThreadCtrl::StaticThreadFunc(void *arg)$/;"	f	class:CN::cThreadCtrl
+Stop	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::Stop()$/;"	f	class:cMySqlClient
+StrNLen	common/StrHelper.h	/^inline size_t StrNLen(const char* s, size_t maxlen)$/;"	f
+StrSafeCopy	common/StrHelper.h	/^inline void StrSafeCopy(T& Destination, const char* Source) throw()$/;"	f
+StrSafeCopy	common/StrHelper.h	55;"	d
+Suspend	common/Thread.cpp	/^    void cThreadCtrl::Suspend()$/;"	f	class:CN::cThreadCtrl
+Terminate	common/Thread.cpp	/^    void cThreadCtrl::Terminate(void)$/;"	f	class:CN::cThreadCtrl
+Terminate	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::Terminate()$/;"	f	class:cMySqlClient
+ThrdProc	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::ThrdProc()$/;"	f	class:cMySqlClient
+UnInit	mysql_sd/DBModule.cpp	/^void cDBModule::UnInit()$/;"	f	class:cDBModule
+UnLock	common/Sync.cpp	/^    void cThreadLock::UnLock(void)$/;"	f	class:CN::cThreadLock
+WaitFor	common/Thread.cpp	/^    bool cThreadCtrl::WaitFor(uint32 dwWaitTime)$/;"	f	class:CN::cThreadCtrl
+ZeroString	common/StrHelper.h	/^inline void ZeroString(T& Destination) throw()$/;"	f
+ZeroString	common/StrHelper.h	58;"	d
+_ClearReqQueue	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::_ClearReqQueue()$/;"	f	class:cMySqlClient
+_ClearResultCmd	mysql_sd/DBModule.cpp	/^void cDBModule::_ClearResultCmd()$/;"	f	class:cDBModule
+_FindMySqlClient	mysql_sd/DBModule.cpp	/^cMySqlClient * cDBModule::_FindMySqlClient(int32 nSN)$/;"	f	class:cDBModule
+_GetDBSCharSetInfo	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_GetDBSCharSetInfo()$/;"	f	class:cMySqlConnection
+_IsCompatiableCharSet	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_IsCompatiableCharSet()$/;"	f	class:cMySqlConnection
+_IsValidCharacterSet	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_IsValidCharacterSet(const char* pszSetName)$/;"	f	class:cMySqlConnection
+_SetServerNames	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_SetServerNames()$/;"	f	class:cMySqlConnection
+_StrSafeCopy	common/StrHelper.h	/^inline void _StrSafeCopy(char* pszDest, const char* pszSrc, size_t nLen) throw()$/;"	f
+__COMMON_20170722_H__	common/Common.h	2;"	d
+__DB_20170722_H__	mysql_sd/DB.h	2;"	d
+__DB_BASE_20170722_H__	mysql_sd/DBBase.h	2;"	d
+__DB_MODULE_20170722_H__	mysql_sd/DBModule.h	2;"	d
+__DB_RECORD_SET_20170722_H__	mysql_sd/MySqlRecordSet.h	2;"	d
+__MYSQL_CLIENT_20170722_H__	mysql_sd/MySqlClient.h	2;"	d
+__MYSQL_CONNECTION_20170722_H__	mysql_sd/MySqlConnection.h	2;"	d
+__SINGLETON_20170722_H__	common/Singleton.h	2;"	d
+__STR_HELPER_20170722_H__	common/StrHelper.h	2;"	d
+__SYNC_20170722_H__	common/Sync.h	2;"	d
+__SYSTEM_20170722_H__	common/System.h	2;"	d
+__THREAD_20170722_H__	common/Thread.h	2;"	d
+__TYPY_DEF_20170122_H__	common/TypeDef.h	2;"	d
+cDBClientMap	mysql_sd/DBModule.h	/^typedef std::map<int32, cMySqlClient*>  cDBClientMap;$/;"	t
+cDBModule	mysql_sd/DBModule.cpp	/^cDBModule::cDBModule(void)$/;"	f	class:cDBModule
+cDBModule	mysql_sd/DBModule.h	/^class cDBModule : public IDBModule$/;"	c
+cMySqlClient	mysql_sd/MySqlClient.cpp	/^cMySqlClient::cMySqlClient()$/;"	f	class:cMySqlClient
+cMySqlClient	mysql_sd/MySqlClient.h	/^class cMySqlClient : public IMySqlConn, public CN::IThread$/;"	c
+cMySqlConnection	mysql_sd/MySqlConnection.cpp	/^cMySqlConnection::cMySqlConnection(void)$/;"	f	class:cMySqlConnection
+cMySqlConnection	mysql_sd/MySqlConnection.h	/^class cMySqlConnection $/;"	c
+cMySqlRecordSet	mysql_sd/MySqlRecordSet.cpp	/^cMySqlRecordSet::cMySqlRecordSet() : m_res(NULL),$/;"	f	class:cMySqlRecordSet
+cMySqlRecordSet	mysql_sd/MySqlRecordSet.h	/^class cMySqlRecordSet : public IMySqlRecordSet$/;"	c
+cThreadCtrl	common/Thread.cpp	/^    cThreadCtrl::cThreadCtrl(IThread *pThread, bool bNeedWaitfor)$/;"	f	class:CN::cThreadCtrl
+cThreadCtrl	common/Thread.h	/^    class cThreadCtrl : public IThreadCtrl$/;"	c	namespace:CN
+cThreadLock	common/Sync.cpp	/^    cThreadLock::cThreadLock(void)$/;"	f	class:CN::cThreadLock
+cThreadLock	common/Sync.h	/^    class cThreadLock : public ILock$/;"	c	namespace:CN
+g_stpCharSets	mysql_sd/MySqlConnection.cpp	/^const static char*  g_stpCharSets[] =$/;"	v
+info_arch	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+int16	common/TypeDef.h	/^typedef __int16_t       int16;$/;"	t
+int16	common/TypeDef.h	/^typedef signed short    int16;$/;"	t
+int32	common/TypeDef.h	/^typedef __int32_t       int32;$/;"	t
+int32	common/TypeDef.h	/^typedef signed int      int32;$/;"	t
+int64	common/TypeDef.h	/^typedef __int64_t       int64;$/;"	t
+int64	common/TypeDef.h	/^typedef signed long     int64;$/;"	t
+int8	common/TypeDef.h	/^typedef __int8_t        int8;$/;"	t
+int8	common/TypeDef.h	/^typedef signed char     int8;$/;"	t
+m_CriticalSection	common/Sync.h	/^            CRITICAL_SECTION m_CriticalSection;$/;"	m	class:CN::cThreadLock
+m_adwLengths	mysql_sd/MySqlRecordSet.h	/^        uint64*         m_adwLengths;$/;"	m	class:cMySqlRecordSet
+m_bConnected	mysql_sd/MySqlConnection.h	/^        bool    m_bConnected;$/;"	m	class:cMySqlConnection
+m_bDbOK	mysql_sd/MySqlClient.h	/^        bool                m_bDbOK;$/;"	m	class:cMySqlClient
+m_bIsStop	common/Thread.h	/^            bool        m_bIsStop;$/;"	m	class:CN::cThreadCtrl
+m_bNeedWaitfor	common/Thread.h	/^            bool        m_bNeedWaitfor;$/;"	m	class:CN::cThreadCtrl
+m_bTerminate	mysql_sd/MySqlClient.h	/^        bool                m_bTerminate;$/;"	m	class:cMySqlClient
+m_dwRef	mysql_sd/DBModule.h	/^    uint32              m_dwRef;$/;"	m	class:cDBModule
+m_dwSec	common/TypeDef.h	/^        uint32  m_dwSec;     \/\/\/< seconds$/;"	m	struct:CN::__anon1
+m_dwThreadId	common/Thread.h	/^            uint32      m_dwThreadId;$/;"	m	class:CN::cThreadCtrl
+m_dwUsec	common/TypeDef.h	/^        uint32  m_dwUsec;    \/\/\/< microsecond(1\/1,000,000 second)$/;"	m	struct:CN::__anon1
+m_handle	common/Thread.h	/^            HANDLE      m_handle;           $/;"	m	class:CN::cThreadCtrl
+m_mutex	common/Sync.h	/^            pthread_mutex_t  m_mutex;$/;"	m	class:CN::cThreadLock
+m_myConnection	mysql_sd/MySqlConnection.h	/^        MYSQL*  m_myConnection;$/;"	m	class:cMySqlConnection
+m_nHour	common/TypeDef.h	/^        int32 m_nHour;      \/\/\/< Hours.       [0-23]$/;"	m	struct:CN::__anon2
+m_nLastReConn	mysql_sd/MySqlClient.h	/^        time_t              m_nLastReConn;$/;"	m	class:cMySqlClient
+m_nMday	common/TypeDef.h	/^        int32 m_nMday;      \/\/\/< Day.         [1-31]$/;"	m	struct:CN::__anon2
+m_nMin	common/TypeDef.h	/^        int32 m_nMin;       \/\/\/< Minutes.     [0-59]$/;"	m	struct:CN::__anon2
+m_nMon	common/TypeDef.h	/^        int32 m_nMon;       \/\/\/< Month.       [0-11]$/;"	m	struct:CN::__anon2
+m_nSN	mysql_sd/DB.h	/^    int32  m_nSN;           \/\/ DB Connection Identity$/;"	m	struct:DBConnInfo
+m_nSec	common/TypeDef.h	/^        int32 m_nSec;       \/\/\/< Seconds.     [0-60]$/;"	m	struct:CN::__anon2
+m_nServerPort	mysql_sd/MySqlConnection.h	/^        int32   m_nServerPort;$/;"	m	class:cMySqlConnection
+m_nWday	common/TypeDef.h	/^        int32 m_nWday;      \/\/\/< Day of week. [0-6]$/;"	m	struct:CN::__anon2
+m_nYear	common/TypeDef.h	/^        int32 m_nYear;      \/\/\/< Year$/;"	m	struct:CN::__anon2
+m_oDBCmdList	mysql_sd/MySqlClient.h	/^        CDBCmdList          m_oDBCmdList;$/;"	m	class:cMySqlClient
+m_oDBSnClientMap	mysql_sd/DBModule.h	/^    cDBClientMap        m_oDBSnClientMap;$/;"	m	class:cDBModule
+m_oResultCmdList	mysql_sd/DBModule.h	/^    CDBCmdList          m_oResultCmdList;$/;"	m	class:cDBModule
+m_pThread	common/Thread.h	/^            IThread*  m_pThread;$/;"	m	class:CN::cThreadCtrl
+m_poInstance	common/Singleton.h	/^                static T*   m_poInstance;$/;"	m	class:CN::CSingleton
+m_poInstance	common/Singleton.h	/^        T* CSingleton<T>::m_poInstance = NULL;$/;"	m	class:CN::CSingleton
+m_poLock	mysql_sd/DBModule.h	/^    CN::ILock*              m_poLock;$/;"	m	class:cDBModule
+m_poLock	mysql_sd/MySqlClient.h	/^        CN::ILock*              m_poLock;$/;"	m	class:cMySqlClient
+m_poMySqlConn	mysql_sd/MySqlClient.h	/^        cMySqlConnection*   m_poMySqlConn;    $/;"	m	class:cMySqlClient
+m_poThrdCtrl	mysql_sd/MySqlClient.h	/^        CN::IThreadCtrl*        m_poThrdCtrl;$/;"	m	class:cMySqlClient
+m_res	mysql_sd/MySqlRecordSet.h	/^        MYSQL_RES*      m_res;$/;"	m	class:cMySqlRecordSet
+m_row	mysql_sd/MySqlRecordSet.h	/^        MYSQL_ROW       m_row; $/;"	m	class:cMySqlRecordSet
+m_stAccount	mysql_sd/DB.h	/^    DBAccount m_stAccount; \/\/ DB Login Account Information structure$/;"	m	struct:DBConnInfo
+m_szCharactSet	mysql_sd/DB.h	/^    char m_szCharactSet[DB_MAX_CHARACTSET_SIZE];  \/\/ Database encoding$/;"	m	struct:DBAccount
+m_szCharactSet	mysql_sd/MySqlConnection.h	/^        char    m_szCharactSet[DB_MAX_CHARACTSET_SIZE];$/;"	m	class:cMySqlConnection
+m_szDBName	mysql_sd/DB.h	/^    char m_szDBName[DB_MAX_NAME_SIZE];            \/\/ Name of the Database to be connect$/;"	m	struct:DBAccount
+m_szDBName	mysql_sd/MySqlConnection.h	/^        char    m_szDBName[DB_MAX_NAME_SIZE];$/;"	m	class:cMySqlConnection
+m_szDBSCharSet	mysql_sd/MySqlConnection.h	/^        char                m_szDBSCharSet[CHARACTER_SET_COUNT][DB_MAX_CHARACTSET_SIZE];$/;"	m	class:cMySqlConnection
+m_szHostName	mysql_sd/DB.h	/^    char m_szHostName[DB_MAX_NAME_SIZE];          \/\/ IP address with string format $/;"	m	struct:DBAccount
+m_szLoginName	mysql_sd/DB.h	/^    char m_szLoginName[DB_MAX_NAME_SIZE];         \/\/ Login Name$/;"	m	struct:DBAccount
+m_szLoginPwd	mysql_sd/DB.h	/^    char m_szLoginPwd[DB_MAX_NAME_SIZE];          \/\/ User password$/;"	m	struct:DBAccount
+m_szPassword	mysql_sd/MySqlConnection.h	/^        char    m_szPassword[DB_MAX_NAME_SIZE];$/;"	m	class:cMySqlConnection
+m_szRsv	mysql_sd/DB.h	/^    char m_szRsv[2];                                \/\/ Reserved$/;"	m	struct:DBAccount
+m_szServerAddr	mysql_sd/MySqlConnection.h	/^        char    m_szServerAddr[DB_MAX_NAME_SIZE];$/;"	m	class:cMySqlConnection
+m_szUserID	mysql_sd/MySqlConnection.h	/^        char    m_szUserID[DB_MAX_NAME_SIZE];$/;"	m	class:cMySqlConnection
+m_wConnPort	mysql_sd/DB.h	/^    uint16 m_wConnPort;                             \/\/ Listen Port of DB Server, Local $/;"	m	struct:DBAccount
+main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	test/Main.cpp	/^int32 main()$/;"	f
+stricmp	mysql_sd/MySqlConnection.cpp	409;"	d
+uint16	common/TypeDef.h	/^typedef __uint16_t      uint16;$/;"	t
+uint16	common/TypeDef.h	/^typedef unsigned short  uint16;$/;"	t
+uint32	common/TypeDef.h	/^typedef __uint32_t      uint32;$/;"	t
+uint32	common/TypeDef.h	/^typedef unsigned int    uint32;$/;"	t
+uint64	common/TypeDef.h	/^typedef __uint64_t      uint64;$/;"	t
+uint64	common/TypeDef.h	/^typedef unsigned long   uint64;$/;"	t
+uint8	common/TypeDef.h	/^typedef __uint8_t       uint8;$/;"	t
+uint8	common/TypeDef.h	/^typedef unsigned char   uint8;$/;"	t
+wBuildNumber	mysql_sd/DBBase.h	/^    uint16 wBuildNumber;$/;"	m	struct:PVersion
+wCompatibleVersion	mysql_sd/DBBase.h	/^    uint16 wCompatibleVersion;  $/;"	m	struct:PVersion
+wMajorVersion	mysql_sd/DBBase.h	/^    uint16 wMajorVersion;   $/;"	m	struct:PVersion
+wMinorVersion	mysql_sd/DBBase.h	/^    uint16 wMinorVersion;   $/;"	m	struct:PVersion
+~CSingleton	common/Singleton.h	/^                virtual ~CSingleton(void){}$/;"	f	class:CN::CSingleton
+~IDBBase	mysql_sd/DBBase.h	/^        virtual ~IDBBase(void)  {}$/;"	f	class:IDBBase
+~ILock	common/Sync.h	/^            virtual ~ILock()    {}$/;"	f	class:CN::ILock
+~IMySqlRecordSet	mysql_sd/DB.h	/^        virtual ~IMySqlRecordSet() {}$/;"	f	class:IMySqlRecordSet
+~IThread	common/Thread.h	/^            virtual ~IThread()  {}$/;"	f	class:CN::IThread
+~IThreadCtrl	common/Thread.h	/^            virtual ~IThreadCtrl()   {}$/;"	f	class:CN::IThreadCtrl
+~cDBModule	mysql_sd/DBModule.cpp	/^cDBModule::~cDBModule()$/;"	f	class:cDBModule
+~cMySqlClient	mysql_sd/MySqlClient.cpp	/^cMySqlClient::~cMySqlClient()$/;"	f	class:cMySqlClient
+~cMySqlConnection	mysql_sd/MySqlConnection.cpp	/^cMySqlConnection::~cMySqlConnection(void)$/;"	f	class:cMySqlConnection
+~cMySqlRecordSet	mysql_sd/MySqlRecordSet.cpp	/^cMySqlRecordSet::~cMySqlRecordSet()$/;"	f	class:cMySqlRecordSet
+~cThreadCtrl	common/Thread.cpp	/^    cThreadCtrl::~cThreadCtrl()$/;"	f	class:CN::cThreadCtrl
+~cThreadLock	common/Sync.cpp	/^    cThreadLock::~cThreadLock(void)$/;"	f	class:CN::cThreadLock
