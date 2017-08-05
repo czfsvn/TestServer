@@ -417,6 +417,7 @@ bool cMySqlConnection::IsCompatiableCharSet()
     //只有character_set_client, character_set_connection, character_set_results,
     //character_set_database,character_set_server,和m_szCharactSet完全一致
 
+#if 0
     if (0 != stricmp(m_szDBSCharSet[CHARACTER_SET_CLIENT] , m_szDBSCharSet[CHARACTER_SET_CONNECTION]))
     {
         return false;
@@ -436,6 +437,7 @@ bool cMySqlConnection::IsCompatiableCharSet()
     {
         return false;
     }
+#endif
     return true;
 }
 

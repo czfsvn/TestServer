@@ -2,6 +2,9 @@
 #define __THREAD_20170722_H__
 
 #include "TypeDef.h"
+#ifndef WIN32
+#include <pthread.h>
+#endif
 
 namespace CN
 {
@@ -57,7 +60,11 @@ namespace CN
             int Start(bool bSuspend);
 
         private:
+#ifdef WIN32
             static uint32   StaticThreadFunc(void *arg);
+#else
+            static void*    StaticThreadFunc(void* argv);
+#endif
 
         protected:
             bool        m_bIsStop;
@@ -67,6 +74,7 @@ namespace CN
 #ifdef WIN32
             HANDLE      m_handle;           
 #else
+            pthread_t   m_threadId;
 #endif
     };
 }

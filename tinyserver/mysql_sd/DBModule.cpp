@@ -1,6 +1,8 @@
 #include "DBModule.h"
 #include "System.h"
 
+cDBModule* cDBModule::m_poInstance = NULL;
+
 IDBModule* DBGetModule(const PVersion* pstVersion)
 {
     if(false == cDBModule::CreateInstance())

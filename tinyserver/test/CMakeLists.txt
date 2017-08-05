@@ -1,4 +1,5 @@
-include_directories(${PROJECT_SOURCE_DIR}/mysql ${PROJECT_SOURCE_DIR}/common /usr/include/mysql/)
+include_directories(${PROJECT_SOURCE_DIR}/mysql_sd
+    ${PROJECT_SOURCE_DIR}/common /usr/include/mysql/)
 link_directories(${PROJECT_BINARY_DIR}/libs /usr/lib64/mysql)
 set(SRC Main.cpp)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bins)

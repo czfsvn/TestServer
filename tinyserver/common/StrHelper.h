@@ -1,6 +1,8 @@
 #ifndef __STR_HELPER_20170722_H__
 #define __STR_HELPER_20170722_H__
 
+#include <string.h>
+
 inline void _StrSafeCopy(char* pszDest, const char* pszSrc, size_t nLen) throw()
 {
     // initialize for check below

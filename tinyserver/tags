@@ -34,18 +34,22 @@ CHARACTER_SET_DATABASE	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_DATABASE,$
 CHARACTER_SET_RESULTS	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_RESULTS,$/;"	e	enum:__anon3
 CHARACTER_SET_SERVER	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_SERVER,$/;"	e	enum:__anon3
 CHARACTER_SET_SYSTEM	mysql_sd/MySqlConnection.h	/^    CHARACTER_SET_SYSTEM,$/;"	e	enum:__anon3
-CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/tinyserver\/build$/;"	m
-CMAKE_BINARY_DIR	build/common/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/tinyserver\/build$/;"	m
-CMAKE_BINARY_DIR	build/mysql_sd/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/tinyserver\/build$/;"	m
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver\/build$/;"	m
+CMAKE_BINARY_DIR	build/common/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver\/build$/;"	m
+CMAKE_BINARY_DIR	build/mysql_sd/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver\/build$/;"	m
+CMAKE_BINARY_DIR	build/test/Makefile	/^CMAKE_BINARY_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver\/build$/;"	m
 CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
 CMAKE_COMMAND	build/common/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
 CMAKE_COMMAND	build/mysql_sd/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/test/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
 CMAKE_EDIT_COMMAND	build/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
 CMAKE_EDIT_COMMAND	build/common/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
 CMAKE_EDIT_COMMAND	build/mysql_sd/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
-CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/tinyserver$/;"	m
-CMAKE_SOURCE_DIR	build/common/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/tinyserver$/;"	m
-CMAKE_SOURCE_DIR	build/mysql_sd/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/tinyserver$/;"	m
+CMAKE_EDIT_COMMAND	build/test/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver$/;"	m
+CMAKE_SOURCE_DIR	build/common/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver$/;"	m
+CMAKE_SOURCE_DIR	build/mysql_sd/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver$/;"	m
+CMAKE_SOURCE_DIR	build/test/Makefile	/^CMAKE_SOURCE_DIR = \/home\/czf\/work\/git\/tinyServer\/tinyserver$/;"	m
 CN	common/Singleton.h	/^namespace CN$/;"	n
 CN	common/Sync.cpp	/^namespace CN$/;"	n
 CN	common/Sync.h	/^namespace CN$/;"	n
@@ -256,6 +260,7 @@ DisConnect	mysql_sd/DBModule.cpp	/^void cDBModule::DisConnect(int32 nDBSn)$/;"	f
 EQUALS	build/Makefile	/^EQUALS = =$/;"	m
 EQUALS	build/common/Makefile	/^EQUALS = =$/;"	m
 EQUALS	build/mysql_sd/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/test/Makefile	/^EQUALS = =$/;"	m
 ESDDBCode	mysql_sd/DB.h	/^enum ESDDBCode$/;"	g
 EscapeString	mysql_sd/DBModule.cpp	/^uint32 cDBModule::EscapeString(int32 nDBSn, const char* pSrc, int32 nSrcSize, $/;"	f	class:cDBModule
 EscapeString	mysql_sd/MySqlClient.cpp	/^uint32 cMySqlClient::EscapeString(const char* pSrc, int32 nSrcSize, char* pszDest, int32 nDstSize)$/;"	f	class:cMySqlClient
@@ -264,15 +269,16 @@ EscapeStringEx	mysql_sd/MySqlConnection.cpp	/^uint32 cMySqlConnection::EscapeStr
 ExecResultCmd	mysql_sd/DBModule.cpp	/^bool cDBModule::ExecResultCmd()$/;"	f	class:cDBModule
 Execute	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::Execute(const char* pszSQL)$/;"	f	class:cMySqlConnection
 ExecuteDBCmd	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::ExecuteDBCmd( void )$/;"	f	class:cMySqlClient
-ExecuteEx	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::ExecuteEx(const char* pszSQL, CMySQLRecordSet& rcdSet)$/;"	f	class:cMySqlConnection
-ExecuteEx	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::ExecuteEx(const char* pszSQL, int32 nLength, CMySQLRecordSet& rcdSet)$/;"	f	class:cMySqlConnection
+ExecuteEx	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::ExecuteEx(const char* pszSQL, cMySqlRecordSet& rcdSet)$/;"	f	class:cMySqlConnection
+ExecuteEx	mysql_sd/MySqlConnection.cpp	/^int32 cMySqlConnection::ExecuteEx(const char* pszSQL, int32 nLength, cMySqlRecordSet& rcdSet)$/;"	f	class:cMySqlConnection
 ExecuteSql	mysql_sd/MySqlClient.cpp	/^int32 cMySqlClient::ExecuteSql(const char* pszSQL)$/;"	f	class:cMySqlClient
 ExecuteSqlRc	mysql_sd/MySqlClient.cpp	/^int32 cMySqlClient::ExecuteSqlRc(const char* pszSQL, IMySqlRecordSet **ppRc)$/;"	f	class:cMySqlClient
 GetAffectedRows	mysql_sd/MySqlConnection.h	/^        uint32 GetAffectedRows() $/;"	f	class:cMySqlConnection
 GetDBCommandNum	mysql_sd/DBModule.cpp	/^uint32 cDBModule::GetDBCommandNum(int nDBSn)$/;"	f	class:cDBModule
 GetDBCommandNum	mysql_sd/MySqlClient.cpp	/^uint32 cMySqlClient::GetDBCommandNum()$/;"	f	class:cMySqlClient
+GetDBSCharSetInfo	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::GetDBSCharSetInfo()$/;"	f	class:cMySqlConnection
 GetFieldCount	mysql_sd/MySqlRecordSet.cpp	/^uint32 cMySqlRecordSet::GetFieldCount()$/;"	f	class:cMySqlRecordSet
-GetFieldLength	mysql_sd/MySqlRecordSet.cpp	/^int32 cMySqlRecordSet::GetFieldLength(uint32 dwIndex)$/;"	f	class:cMySqlRecordSet
+GetFieldLength	mysql_sd/MySqlRecordSet.cpp	/^uint32 cMySqlRecordSet::GetFieldLength(uint32 dwIndex)$/;"	f	class:cMySqlRecordSet
 GetFieldValue	mysql_sd/MySqlRecordSet.cpp	/^const char* cMySqlRecordSet::GetFieldValue(uint32 dwIndex)$/;"	f	class:cMySqlRecordSet
 GetLastError	mysql_sd/MySqlClient.cpp	/^uint32 cMySqlClient::GetLastError(void)$/;"	f	class:cMySqlClient
 GetLastError	mysql_sd/MySqlConnection.cpp	/^uint32 cMySqlConnection::GetLastError() $/;"	f	class:cMySqlConnection
@@ -299,6 +305,8 @@ IThread	common/Thread.h	/^    class IThread$/;"	c	namespace:CN
 IThreadCtrl	common/Thread.h	/^    class IThreadCtrl$/;"	c	namespace:CN
 Init	mysql_sd/DBModule.cpp	/^bool cDBModule::Init()$/;"	f	class:cDBModule
 Instance	common/Singleton.h	/^                static  T* Instance(void)$/;"	f	class:CN::CSingleton
+IsCompatiableCharSet	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::IsCompatiableCharSet()$/;"	f	class:cMySqlConnection
+IsValidCharacterSet	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::IsValidCharacterSet(const char* pszSetName)$/;"	f	class:cMySqlConnection
 Kill	common/Thread.cpp	/^    bool cThreadCtrl::Kill(uint32 dwExitCode)$/;"	f	class:CN::cThreadCtrl
 Lock	common/Sync.cpp	/^    void cThreadLock::Lock(void)$/;"	f	class:CN::cThreadLock
 PFN_DBGetModule	mysql_sd/DB.h	/^typedef IDBModule* (*PFN_DBGetModule)(const PVersion* pstVersion);$/;"	t
@@ -360,6 +368,7 @@ QueryRef	mysql_sd/DBModule.cpp	/^uint32 cDBModule::QueryRef(void)$/;"	f	class:cD
 RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
 RM	build/common/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
 RM	build/mysql_sd/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/test/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
 ReConnect	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::ReConnect()$/;"	f	class:cMySqlConnection
 Release	common/Sync.cpp	/^    void cThreadLock::Release(void)$/;"	f	class:CN::cThreadLock
 Release	common/Thread.h	/^            virtual void Release(void)          { delete this;          }$/;"	f	class:CN::cThreadCtrl
@@ -374,12 +383,14 @@ SAFE_SUB	common/Common.h	7;"	d
 SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SHELL	build/common/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SHELL	build/mysql_sd/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/test/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SINGLETON_FRIEND_CLASS_REGISTER	common/Singleton.h	30;"	d
 SLocalTime	common/TypeDef.h	/^    }SLocalTime;$/;"	t	namespace:CN	typeref:struct:CN::__anon2
 STimeVal	common/TypeDef.h	/^    }STimeVal;$/;"	t	namespace:CN	typeref:struct:CN::__anon1
 SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
 SUFFIXES	build/common/Makefile	/^SUFFIXES =$/;"	m
 SUFFIXES	build/mysql_sd/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/test/Makefile	/^SUFFIXES =$/;"	m
 SYS_CreateThreadCtrl	common/Thread.cpp	/^    IThreadCtrl* SYS_CreateThreadCtrl(IThread* poThread, bool bNeedWaitfor, $/;"	f	namespace:CN
 SYS_CreateThreadLock	common/Sync.cpp	/^    ILock* SYS_CreateThreadLock()$/;"	f	namespace:CN
 SYS_GetLocalTime	common/System.cpp	/^    void SYS_GetLocalTime(uint32 dwTime,SLocalTime* pstLocalTime)$/;"	f	namespace:CN
@@ -387,30 +398,29 @@ SYS_GetTimeEx	common/System.cpp	/^    void SYS_GetTimeEx(STimeVal* pstTime){$/;"
 SYS_MakeDaemonProcess	common/Thread.cpp	/^    void SYS_MakeDaemonProcess()$/;"	f	namespace:CN
 SYS_Sleep	common/System.cpp	/^    void SYS_Sleep(uint32 dwMilliseconds)$/;"	f	namespace:CN
 SafeSprintf	common/StrHelper.h	/^inline void SafeSprintf(T& Destination, const char* format, ...) throw()$/;"	f
-SetConnectionString	mysql_sd/MySqlConnection.cpp	/^void cMySqlConnection::SetConnectionString(const char* pszServerAddr, int32 nServerPort, $/;"	f	class:cMySqlConnection
+SetConnectString	mysql_sd/MySqlConnection.cpp	/^void cMySqlConnection::SetConnectString(const char* pszServerAddr, int32 nServerPort, $/;"	f	class:cMySqlConnection
+SetServerNames	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::SetServerNames()$/;"	f	class:cMySqlConnection
 Start	common/Thread.cpp	/^    int cThreadCtrl::Start(bool bSuspend)$/;"	f	class:CN::cThreadCtrl
 Start	mysql_sd/MySqlClient.cpp	/^bool cMySqlClient::Start()$/;"	f	class:cMySqlClient
 StaticThreadFunc	common/Thread.cpp	/^    uint32  cThreadCtrl::StaticThreadFunc(void *arg)$/;"	f	class:CN::cThreadCtrl
+StaticThreadFunc	common/Thread.cpp	/^    void* cThreadCtrl::StaticThreadFunc(void *arg)$/;"	f	class:CN::cThreadCtrl
 Stop	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::Stop()$/;"	f	class:cMySqlClient
 StrNLen	common/StrHelper.h	/^inline size_t StrNLen(const char* s, size_t maxlen)$/;"	f
 StrSafeCopy	common/StrHelper.h	/^inline void StrSafeCopy(T& Destination, const char* Source) throw()$/;"	f
-StrSafeCopy	common/StrHelper.h	55;"	d
+StrSafeCopy	common/StrHelper.h	57;"	d
 Suspend	common/Thread.cpp	/^    void cThreadCtrl::Suspend()$/;"	f	class:CN::cThreadCtrl
 Terminate	common/Thread.cpp	/^    void cThreadCtrl::Terminate(void)$/;"	f	class:CN::cThreadCtrl
 Terminate	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::Terminate()$/;"	f	class:cMySqlClient
+Test_DBModule	test/Main.cpp	/^void Test_DBModule()$/;"	f
 ThrdProc	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::ThrdProc()$/;"	f	class:cMySqlClient
 UnInit	mysql_sd/DBModule.cpp	/^void cDBModule::UnInit()$/;"	f	class:cDBModule
 UnLock	common/Sync.cpp	/^    void cThreadLock::UnLock(void)$/;"	f	class:CN::cThreadLock
 WaitFor	common/Thread.cpp	/^    bool cThreadCtrl::WaitFor(uint32 dwWaitTime)$/;"	f	class:CN::cThreadCtrl
 ZeroString	common/StrHelper.h	/^inline void ZeroString(T& Destination) throw()$/;"	f
-ZeroString	common/StrHelper.h	58;"	d
+ZeroString	common/StrHelper.h	60;"	d
 _ClearReqQueue	mysql_sd/MySqlClient.cpp	/^void cMySqlClient::_ClearReqQueue()$/;"	f	class:cMySqlClient
 _ClearResultCmd	mysql_sd/DBModule.cpp	/^void cDBModule::_ClearResultCmd()$/;"	f	class:cDBModule
 _FindMySqlClient	mysql_sd/DBModule.cpp	/^cMySqlClient * cDBModule::_FindMySqlClient(int32 nSN)$/;"	f	class:cDBModule
-_GetDBSCharSetInfo	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_GetDBSCharSetInfo()$/;"	f	class:cMySqlConnection
-_IsCompatiableCharSet	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_IsCompatiableCharSet()$/;"	f	class:cMySqlConnection
-_IsValidCharacterSet	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_IsValidCharacterSet(const char* pszSetName)$/;"	f	class:cMySqlConnection
-_SetServerNames	mysql_sd/MySqlConnection.cpp	/^bool cMySqlConnection::_SetServerNames()$/;"	f	class:cMySqlConnection
 _StrSafeCopy	common/StrHelper.h	/^inline void _StrSafeCopy(char* pszDest, const char* pszSrc, size_t nLen) throw()$/;"	f
 __COMMON_20170722_H__	common/Common.h	2;"	d
 __DB_20170722_H__	mysql_sd/DB.h	2;"	d
@@ -504,12 +514,13 @@ m_szPassword	mysql_sd/MySqlConnection.h	/^        char    m_szPassword[DB_MAX_NA
 m_szRsv	mysql_sd/DB.h	/^    char m_szRsv[2];                                \/\/ Reserved$/;"	m	struct:DBAccount
 m_szServerAddr	mysql_sd/MySqlConnection.h	/^        char    m_szServerAddr[DB_MAX_NAME_SIZE];$/;"	m	class:cMySqlConnection
 m_szUserID	mysql_sd/MySqlConnection.h	/^        char    m_szUserID[DB_MAX_NAME_SIZE];$/;"	m	class:cMySqlConnection
+m_threadId	common/Thread.h	/^            pthread_t   m_threadId;$/;"	m	class:CN::cThreadCtrl
 m_wConnPort	mysql_sd/DB.h	/^    uint16 m_wConnPort;                             \/\/ Listen Port of DB Server, Local $/;"	m	struct:DBAccount
 main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
 main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
 main	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
 main	test/Main.cpp	/^int32 main()$/;"	f
-stricmp	mysql_sd/MySqlConnection.cpp	409;"	d
+stricmp	mysql_sd/MySqlConnection.cpp	413;"	d
 uint16	common/TypeDef.h	/^typedef __uint16_t      uint16;$/;"	t
 uint16	common/TypeDef.h	/^typedef unsigned short  uint16;$/;"	t
 uint32	common/TypeDef.h	/^typedef __uint32_t      uint32;$/;"	t

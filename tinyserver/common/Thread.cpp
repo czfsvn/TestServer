@@ -1,4 +1,5 @@
 #include "Thread.h"
+#include <iostream>
 
 namespace CN
 {
@@ -16,6 +17,7 @@ namespace CN
         return pThreadCtrl;
     }
 
+#ifdef WIN32
     uint32  cThreadCtrl::StaticThreadFunc(void *arg)
     {
         cThreadCtrl *pThreadCtrl = (cThreadCtrl *)arg;
@@ -23,17 +25,30 @@ namespace CN
         pThreadCtrl->m_pThread->ThrdProc();
 
         //线程结束的时候进行判断
-#ifdef WIN32
         if (!pThreadCtrl->m_bNeedWaitfor)
         {
             CloseHandle(pThreadCtrl->m_handle);
             pThreadCtrl->m_handle = INVALID_HANDLE_VALUE;
             pThreadCtrl->m_bIsStop = true;
         }
-#else
-#endif
         return 0;
     }
+#else
+    void* cThreadCtrl::StaticThreadFunc(void *arg)
+    {
+        cThreadCtrl *pThreadCtrl = (cThreadCtrl *)arg;
+        pThreadCtrl->m_bIsStop = false;
+        pThreadCtrl->m_pThread->ThrdProc();
+
+        if (!pThreadCtrl->m_bNeedWaitfor)
+        {
+            pThreadCtrl->WaitFor(3000);
+            pThreadCtrl->m_threadId = NULL;
+            pThreadCtrl->m_bIsStop = true;
+        }
+        return NULL;
+    }
+#endif
 
     cThreadCtrl::cThreadCtrl(IThread *pThread, bool bNeedWaitfor)
     {
@@ -55,7 +70,10 @@ namespace CN
             Kill(dwErrCode);
         }
 #else
+        if (m_threadId == 0)
+            return; 
 
+        pthread_exit(NULL);
 #endif
     }
 
@@ -89,9 +107,12 @@ namespace CN
             m_handle= (HANDLE)_beginthreadex(0, 0, StaticThreadFunc, this, 0, &m_dwThreadId);
         }
 #else
-
+        int32 ret = pthread_create(&m_threadId, NULL, cThreadCtrl::StaticThreadFunc, this);
+        if (ret != 0)
+        {
+            std::cout<<"Create thread error !"<<std::endl;
+        }
 #endif
-
         return 0;
     }
 
@@ -117,6 +138,7 @@ namespace CN
             return true;
 
 #else
+        pthread_join(m_threadId, NULL);
 #endif
         return false;
     }
@@ -136,6 +158,10 @@ namespace CN
             return TRUE;
         }
 #else
+        if (m_threadId == 0)
+            return false;
+
+        pthread_exit(NULL);
 #endif
         return false;
     }
