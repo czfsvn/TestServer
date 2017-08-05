@@ -1,3 +1,0 @@
-/home/czf/work/tinyserver/build/test/CMakeFiles/Main.dir
-/home/czf/work/tinyserver/build/common/CMakeFiles/common.dir
-/home/czf/work/tinyserver/build/mysql_sd/CMakeFiles/mysql_sd.dir

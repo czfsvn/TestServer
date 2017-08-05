@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../libs/libmysql_sd.a  CMakeFiles/mysql_sd.dir/DBModule.o CMakeFiles/mysql_sd.dir/MySqlClient.o CMakeFiles/mysql_sd.dir/MySqlConnection.o CMakeFiles/mysql_sd.dir/MySqlRecordSet.o
-/usr/bin/ranlib ../libs/libmysql_sd.a
