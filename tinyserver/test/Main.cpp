@@ -74,6 +74,14 @@ void Test_DBModule()
     conInfo.m_stAccount.m_wConnPort = 3306;
 
     DBGetModule(NULL)->Connect(&conInfo);
+    conInfo.m_nSN = 2;
+    DBGetModule(NULL)->Connect(&conInfo);
+    conInfo.m_nSN = 3;
+    DBGetModule(NULL)->Connect(&conInfo);
+    conInfo.m_nSN = 4;
+    DBGetModule(NULL)->Connect(&conInfo);
+    conInfo.m_nSN = 5;
+    DBGetModule(NULL)->Connect(&conInfo);
     cDBModule::Instance()->AddDBCommand(new TestEvent());
     while (1)
     {
